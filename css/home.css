@@ -1,0 +1,70 @@
+
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#banner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--colorSecondary);
+    color: var(--colorMain);
+    padding: 1.5rem;
+}
+
+.CTA{
+    background-color: var(--colorCTA);
+    color: var(--colorLink);
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.preview {
+    background-color: var(--colorFrame);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: auto;
+}
+
+
+@media (min-width: 800px){
+    .grid_60-40
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.grid_70-30
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0 3rem;
+}
+
+
+.grid_1-1 li{
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    
+}
+#book_previews li {
+    display: inline-block;
+}
+}
